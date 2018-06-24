@@ -12,6 +12,6 @@
 
 @interface ACMSManager : NSObject
 
-@property BOOL runningInVM;
+@property BOOL runningInVM;//噶撸妈急
 
 @end
