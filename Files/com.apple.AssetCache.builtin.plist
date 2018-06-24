@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>DYLD_INSERT_LIBRARIES</key>
+		<string>/usr/local/lib/libCrackAssetCache.dylib</string>
+	</dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/Library/Application Support/Apple/AssetCache/.activated</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.AssetCache.builtin</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.AssetCache.builtin</key>
+		<true/>
+		<key>com.apple.AssetCache.builtin.CacheDelete</key>
+		<true/>
+		<key>com.apple.AssetCacheC.builtin</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/AssetCache/AssetCache</string>
+	</array>
+</dict>
+</plist>

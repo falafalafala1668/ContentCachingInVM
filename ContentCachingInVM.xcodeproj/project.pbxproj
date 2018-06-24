@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3300570120CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3300570020CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h */; };
+		3300570320CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3300570220CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm */; };
+		3300570720CFCC6C00AAE1F9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 336515F720CFAA65004ADBC5 /* JRSwizzle.m */; };
+		3300570820CFCC7200AAE1F9 /* ACClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515F520CFA9D0004ADBC5 /* ACClasses.h */; };
+		336515E820CF8637004ADBC5 /* CrackAssetCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515E720CF8637004ADBC5 /* CrackAssetCache.h */; };
+		336515EA20CF8637004ADBC5 /* CrackAssetCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 336515E920CF8637004ADBC5 /* CrackAssetCache.mm */; };
+		336515F620CFA9D0004ADBC5 /* ACClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515F520CFA9D0004ADBC5 /* ACClasses.h */; };
+		336515F920CFAA66004ADBC5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 336515F720CFAA65004ADBC5 /* JRSwizzle.m */; };
+		336515FA20CFAA66004ADBC5 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515F820CFAA65004ADBC5 /* JRSwizzle.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		330056FE20CFCC2A00AAE1F9 /* libCrackAssetCacheManagerService.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCrackAssetCacheManagerService.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3300570020CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrackAssetCacheManagerService.h; sourceTree = "<group>"; };
+		3300570220CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CrackAssetCacheManagerService.mm; sourceTree = "<group>"; };
+		336515E420CF8637004ADBC5 /* libCrackAssetCache.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCrackAssetCache.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		336515E720CF8637004ADBC5 /* CrackAssetCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrackAssetCache.h; sourceTree = "<group>"; };
+		336515E920CF8637004ADBC5 /* CrackAssetCache.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CrackAssetCache.mm; sourceTree = "<group>"; };
+		336515F520CFA9D0004ADBC5 /* ACClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACClasses.h; sourceTree = "<group>"; };
+		336515F720CFAA65004ADBC5 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		336515F820CFAA65004ADBC5 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		336515FB20CFAB16004ADBC5 /* hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hook.h; sourceTree = "<group>"; };
+		339CA6FF20D681B6006C7010 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330056FC20CFCC2A00AAE1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336515E220CF8637004ADBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330056FF20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */ = {
+			isa = PBXGroup;
+			children = (
+				3300570020CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h */,
+				3300570220CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm */,
+			);
+			path = CrackAssetCacheManagerService;
+			sourceTree = "<group>";
+		};
+		336515DB20CF8637004ADBC5 = {
+			isa = PBXGroup;
+			children = (
+				339CA6FF20D681B6006C7010 /* README.md */,
+				336515F020CF87A0004ADBC5 /* Classes */,
+				336515E620CF8637004ADBC5 /* CrackAssetCache */,
+				330056FF20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */,
+				336515E520CF8637004ADBC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336515E520CF8637004ADBC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336515E420CF8637004ADBC5 /* libCrackAssetCache.dylib */,
+				330056FE20CFCC2A00AAE1F9 /* libCrackAssetCacheManagerService.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336515E620CF8637004ADBC5 /* CrackAssetCache */ = {
+			isa = PBXGroup;
+			children = (
+				336515E720CF8637004ADBC5 /* CrackAssetCache.h */,
+				336515E920CF8637004ADBC5 /* CrackAssetCache.mm */,
+			);
+			path = CrackAssetCache;
+			sourceTree = "<group>";
+		};
+		336515F020CF87A0004ADBC5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				336515F520CFA9D0004ADBC5 /* ACClasses.h */,
+				336515F820CFAA65004ADBC5 /* JRSwizzle.h */,
+				336515F720CFAA65004ADBC5 /* JRSwizzle.m */,
+				336515FB20CFAB16004ADBC5 /* hook.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		330056FA20CFCC2A00AAE1F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3300570120CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h in Headers */,
+				3300570820CFCC7200AAE1F9 /* ACClasses.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336515E020CF8637004ADBC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336515F620CFA9D0004ADBC5 /* ACClasses.h in Headers */,
+				336515FA20CFAA66004ADBC5 /* JRSwizzle.h in Headers */,
+				336515E820CF8637004ADBC5 /* CrackAssetCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		330056FD20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3300570420CFCC2A00AAE1F9 /* Build configuration list for PBXNativeTarget "CrackAssetCacheManagerService" */;
+			buildPhases = (
+				330056FA20CFCC2A00AAE1F9 /* Headers */,
+				330056FB20CFCC2A00AAE1F9 /* Sources */,
+				330056FC20CFCC2A00AAE1F9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrackAssetCacheManagerService;
+			productName = CrackAssetCacheManagerServices;
+			productReference = 330056FE20CFCC2A00AAE1F9 /* libCrackAssetCacheManagerService.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		336515E320CF8637004ADBC5 /* CrackAssetCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336515ED20CF8637004ADBC5 /* Build configuration list for PBXNativeTarget "CrackAssetCache" */;
+			buildPhases = (
+				336515E020CF8637004ADBC5 /* Headers */,
+				336515E120CF8637004ADBC5 /* Sources */,
+				336515E220CF8637004ADBC5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrackAssetCache;
+			productName = CrackVM;
+			productReference = 336515E420CF8637004ADBC5 /* libCrackAssetCache.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336515DC20CF8637004ADBC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Mianmian;
+				TargetAttributes = {
+					330056FD20CFCC2A00AAE1F9 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					336515E320CF8637004ADBC5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 336515DF20CF8637004ADBC5 /* Build configuration list for PBXProject "ContentCachingInVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 336515DB20CF8637004ADBC5;
+			productRefGroup = 336515E520CF8637004ADBC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336515E320CF8637004ADBC5 /* CrackAssetCache */,
+				330056FD20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330056FB20CFCC2A00AAE1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3300570720CFCC6C00AAE1F9 /* JRSwizzle.m in Sources */,
+				3300570320CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		336515E120CF8637004ADBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336515F920CFAA66004ADBC5 /* JRSwizzle.m in Sources */,
+				336515EA20CF8637004ADBC5 /* CrackAssetCache.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3300570520CFCC2A00AAE1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR5FDGS96S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3300570620CFCC2A00AAE1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR5FDGS96S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		336515EB20CF8637004ADBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		336515EC20CF8637004ADBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		336515EE20CF8637004ADBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR5FDGS96S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		336515EF20CF8637004ADBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LR5FDGS96S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3300570420CFCC2A00AAE1F9 /* Build configuration list for PBXNativeTarget "CrackAssetCacheManagerService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3300570520CFCC2A00AAE1F9 /* Debug */,
+				3300570620CFCC2A00AAE1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336515DF20CF8637004ADBC5 /* Build configuration list for PBXProject "ContentCachingInVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336515EB20CF8637004ADBC5 /* Debug */,
+				336515EC20CF8637004ADBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336515ED20CF8637004ADBC5 /* Build configuration list for PBXNativeTarget "CrackAssetCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336515EE20CF8637004ADBC5 /* Debug */,
+				336515EF20CF8637004ADBC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336515DC20CF8637004ADBC5 /* Project object */;
+}
