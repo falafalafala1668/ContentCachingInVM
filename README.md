@@ -1,7 +1,7 @@
 #  ContentCachingInVM
 ## Info
 Hook ”runningInVM" method in AssetCache and AssetCacheManageService make Content Caching can running in VM.
-Support macOS 10.13.3 to 10.14 (Beta 2)
+Support macOS 10.13.3 to 10.14 (Beta 5)
 
 ## How To Do
 1. **Please Disable SIP on your mac.**
