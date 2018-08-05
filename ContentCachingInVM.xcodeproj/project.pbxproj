@@ -30,6 +30,7 @@
 		336515F820CFAA65004ADBC5 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		336515FB20CFAB16004ADBC5 /* hook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hook.h; sourceTree = "<group>"; };
 		339CA6FF20D681B6006C7010 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		33E2121221173C91003EE551 /* Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Files; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				336515E620CF8637004ADBC5 /* CrackAssetCache */,
 				330056FF20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */,
 				336515E520CF8637004ADBC5 /* Products */,
+				33E2121221173C91003EE551 /* Files */,
 			);
 			sourceTree = "<group>";
 		};

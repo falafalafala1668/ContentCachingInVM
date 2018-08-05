@@ -36,7 +36,7 @@
 	<string>Adaptive</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/libexec/AssetCache/AssetCache</string>
+		<string>/usr/local/AssetCacheFiles/AssetCache/AssetCache</string>
 	</array>
 </dict>
 </plist>
