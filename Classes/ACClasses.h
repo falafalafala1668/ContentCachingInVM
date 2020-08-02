@@ -7,11 +7,11 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ECConfig : NSObject
-- (BOOL)runningInVM; //噶撸妈急
+- (BOOL)runningInVM;
 @end
 
 @interface ACMSManager : NSObject
 
-@property BOOL runningInVM;//噶撸妈急
+@property BOOL runningInVM;
 
 @end
