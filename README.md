@@ -1,5 +1,4 @@
 #  ContentCachingInVM
-## Info
 Hook `runningInVM` method in AssetCache and AssetCacheManageService make Content Caching can running in VM.
 Support macOS 10.13.3 to 11.0 Beta 3
 
