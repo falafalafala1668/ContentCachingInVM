@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3300570120CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3300570020CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h */; };
-		3300570320CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3300570220CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm */; };
+		3300570120CFCC2A00AAE1F9 /* HookAssetCacheManagerService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3300570020CFCC2A00AAE1F9 /* HookAssetCacheManagerService.h */; };
+		3300570320CFCC2A00AAE1F9 /* HookAssetCacheManagerService.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3300570220CFCC2A00AAE1F9 /* HookAssetCacheManagerService.mm */; };
 		3300570720CFCC6C00AAE1F9 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 336515F720CFAA65004ADBC5 /* JRSwizzle.m */; };
 		3300570820CFCC7200AAE1F9 /* ACClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515F520CFA9D0004ADBC5 /* ACClasses.h */; };
-		336515E820CF8637004ADBC5 /* CrackAssetCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515E720CF8637004ADBC5 /* CrackAssetCache.h */; };
-		336515EA20CF8637004ADBC5 /* CrackAssetCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 336515E920CF8637004ADBC5 /* CrackAssetCache.mm */; };
+		336515E820CF8637004ADBC5 /* HookAssetCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515E720CF8637004ADBC5 /* HookAssetCache.h */; };
+		336515EA20CF8637004ADBC5 /* HookAssetCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 336515E920CF8637004ADBC5 /* HookAssetCache.mm */; };
 		336515F620CFA9D0004ADBC5 /* ACClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515F520CFA9D0004ADBC5 /* ACClasses.h */; };
 		336515F920CFAA66004ADBC5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 336515F720CFAA65004ADBC5 /* JRSwizzle.m */; };
 		336515FA20CFAA66004ADBC5 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 336515F820CFAA65004ADBC5 /* JRSwizzle.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		330056FE20CFCC2A00AAE1F9 /* libCrackAssetCacheManagerService.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCrackAssetCacheManagerService.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		3300570020CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrackAssetCacheManagerService.h; sourceTree = "<group>"; };
-		3300570220CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CrackAssetCacheManagerService.mm; sourceTree = "<group>"; };
-		336515E420CF8637004ADBC5 /* libCrackAssetCache.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libCrackAssetCache.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		336515E720CF8637004ADBC5 /* CrackAssetCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrackAssetCache.h; sourceTree = "<group>"; };
-		336515E920CF8637004ADBC5 /* CrackAssetCache.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CrackAssetCache.mm; sourceTree = "<group>"; };
+		330056FE20CFCC2A00AAE1F9 /* libHookAssetCacheManagerService.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libHookAssetCacheManagerService.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		3300570020CFCC2A00AAE1F9 /* HookAssetCacheManagerService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookAssetCacheManagerService.h; sourceTree = "<group>"; };
+		3300570220CFCC2A00AAE1F9 /* HookAssetCacheManagerService.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HookAssetCacheManagerService.mm; sourceTree = "<group>"; };
+		336515E420CF8637004ADBC5 /* libHookAssetCache.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libHookAssetCache.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		336515E720CF8637004ADBC5 /* HookAssetCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookAssetCache.h; sourceTree = "<group>"; };
+		336515E920CF8637004ADBC5 /* HookAssetCache.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HookAssetCache.mm; sourceTree = "<group>"; };
 		336515F520CFA9D0004ADBC5 /* ACClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACClasses.h; sourceTree = "<group>"; };
 		336515F720CFAA65004ADBC5 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		336515F820CFAA65004ADBC5 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
@@ -51,13 +51,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		330056FF20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */ = {
+		330056FF20CFCC2A00AAE1F9 /* HookAssetCacheManagerService */ = {
 			isa = PBXGroup;
 			children = (
-				3300570020CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h */,
-				3300570220CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm */,
+				3300570020CFCC2A00AAE1F9 /* HookAssetCacheManagerService.h */,
+				3300570220CFCC2A00AAE1F9 /* HookAssetCacheManagerService.mm */,
 			);
-			path = CrackAssetCacheManagerService;
+			path = HookAssetCacheManagerService;
 			sourceTree = "<group>";
 		};
 		336515DB20CF8637004ADBC5 = {
@@ -65,8 +65,8 @@
 			children = (
 				339CA6FF20D681B6006C7010 /* README.md */,
 				336515F020CF87A0004ADBC5 /* Classes */,
-				336515E620CF8637004ADBC5 /* CrackAssetCache */,
-				330056FF20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */,
+				336515E620CF8637004ADBC5 /* HookAssetCache */,
+				330056FF20CFCC2A00AAE1F9 /* HookAssetCacheManagerService */,
 				336515E520CF8637004ADBC5 /* Products */,
 				33E2121221173C91003EE551 /* Files */,
 			);
@@ -75,19 +75,19 @@
 		336515E520CF8637004ADBC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				336515E420CF8637004ADBC5 /* libCrackAssetCache.dylib */,
-				330056FE20CFCC2A00AAE1F9 /* libCrackAssetCacheManagerService.dylib */,
+				336515E420CF8637004ADBC5 /* libHookAssetCache.dylib */,
+				330056FE20CFCC2A00AAE1F9 /* libHookAssetCacheManagerService.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		336515E620CF8637004ADBC5 /* CrackAssetCache */ = {
+		336515E620CF8637004ADBC5 /* HookAssetCache */ = {
 			isa = PBXGroup;
 			children = (
-				336515E720CF8637004ADBC5 /* CrackAssetCache.h */,
-				336515E920CF8637004ADBC5 /* CrackAssetCache.mm */,
+				336515E720CF8637004ADBC5 /* HookAssetCache.h */,
+				336515E920CF8637004ADBC5 /* HookAssetCache.mm */,
 			);
-			path = CrackAssetCache;
+			path = HookAssetCache;
 			sourceTree = "<group>";
 		};
 		336515F020CF87A0004ADBC5 /* Classes */ = {
@@ -108,7 +108,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3300570120CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.h in Headers */,
+				3300570120CFCC2A00AAE1F9 /* HookAssetCacheManagerService.h in Headers */,
 				3300570820CFCC7200AAE1F9 /* ACClasses.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,16 +119,16 @@
 			files = (
 				336515F620CFA9D0004ADBC5 /* ACClasses.h in Headers */,
 				336515FA20CFAA66004ADBC5 /* JRSwizzle.h in Headers */,
-				336515E820CF8637004ADBC5 /* CrackAssetCache.h in Headers */,
+				336515E820CF8637004ADBC5 /* HookAssetCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		330056FD20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */ = {
+		330056FD20CFCC2A00AAE1F9 /* HookAssetCacheManagerService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3300570420CFCC2A00AAE1F9 /* Build configuration list for PBXNativeTarget "CrackAssetCacheManagerService" */;
+			buildConfigurationList = 3300570420CFCC2A00AAE1F9 /* Build configuration list for PBXNativeTarget "HookAssetCacheManagerService" */;
 			buildPhases = (
 				330056FA20CFCC2A00AAE1F9 /* Headers */,
 				330056FB20CFCC2A00AAE1F9 /* Sources */,
@@ -138,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = CrackAssetCacheManagerService;
+			name = HookAssetCacheManagerService;
 			productName = CrackAssetCacheManagerServices;
-			productReference = 330056FE20CFCC2A00AAE1F9 /* libCrackAssetCacheManagerService.dylib */;
+			productReference = 330056FE20CFCC2A00AAE1F9 /* libHookAssetCacheManagerService.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
-		336515E320CF8637004ADBC5 /* CrackAssetCache */ = {
+		336515E320CF8637004ADBC5 /* HookAssetCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 336515ED20CF8637004ADBC5 /* Build configuration list for PBXNativeTarget "CrackAssetCache" */;
+			buildConfigurationList = 336515ED20CF8637004ADBC5 /* Build configuration list for PBXNativeTarget "HookAssetCache" */;
 			buildPhases = (
 				336515E020CF8637004ADBC5 /* Headers */,
 				336515E120CF8637004ADBC5 /* Sources */,
@@ -155,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = CrackAssetCache;
+			name = HookAssetCache;
 			productName = CrackVM;
-			productReference = 336515E420CF8637004ADBC5 /* libCrackAssetCache.dylib */;
+			productReference = 336515E420CF8637004ADBC5 /* libHookAssetCache.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 		336515DC20CF8637004ADBC5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = Mianmian;
 				TargetAttributes = {
 					330056FD20CFCC2A00AAE1F9 = {
@@ -190,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				336515E320CF8637004ADBC5 /* CrackAssetCache */,
-				330056FD20CFCC2A00AAE1F9 /* CrackAssetCacheManagerService */,
+				336515E320CF8637004ADBC5 /* HookAssetCache */,
+				330056FD20CFCC2A00AAE1F9 /* HookAssetCacheManagerService */,
 			);
 		};
 /* End PBXProject section */
@@ -202,7 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3300570720CFCC6C00AAE1F9 /* JRSwizzle.m in Sources */,
-				3300570320CFCC2A00AAE1F9 /* CrackAssetCacheManagerService.mm in Sources */,
+				3300570320CFCC2A00AAE1F9 /* HookAssetCacheManagerService.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				336515F920CFAA66004ADBC5 /* JRSwizzle.m in Sources */,
-				336515EA20CF8637004ADBC5 /* CrackAssetCache.mm in Sources */,
+				336515EA20CF8637004ADBC5 /* HookAssetCache.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,13 +221,19 @@
 		3300570520CFCC2A00AAE1F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				ARCHS = (
+					x86_64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR5FDGS96S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -237,13 +243,19 @@
 		3300570620CFCC2A00AAE1F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				ARCHS = (
+					x86_64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR5FDGS96S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -276,13 +288,15 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -334,13 +348,15 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -362,41 +378,51 @@
 		336515EE20CF8637004ADBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				ARCHS = (
+					x86_64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR5FDGS96S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "i386 x86_64 arm64e";
 			};
 			name = Debug;
 		};
 		336515EF20CF8637004ADBC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				ARCHS = (
+					x86_64,
+					arm64e,
+				);
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR5FDGS96S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "i386 x86_64 arm64e";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3300570420CFCC2A00AAE1F9 /* Build configuration list for PBXNativeTarget "CrackAssetCacheManagerService" */ = {
+		3300570420CFCC2A00AAE1F9 /* Build configuration list for PBXNativeTarget "HookAssetCacheManagerService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3300570520CFCC2A00AAE1F9 /* Debug */,
@@ -414,7 +440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		336515ED20CF8637004ADBC5 /* Build configuration list for PBXNativeTarget "CrackAssetCache" */ = {
+		336515ED20CF8637004ADBC5 /* Build configuration list for PBXNativeTarget "HookAssetCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				336515EE20CF8637004ADBC5 /* Debug */,

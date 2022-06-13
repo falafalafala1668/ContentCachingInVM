@@ -1,12 +1,12 @@
 //
-//  CrackAssetCacheManagerServices.m
-//  CrackAssetCacheManagerServices
+//  HookAssetCacheManagerServices.m
+//  HookAssetCacheManagerServices
 //
 //  Created by Mianmian on 12/6/2018.
 //  Copyright © 2018 Mianmian. All rights reserved.
 //
 
-#import "CrackAssetCacheManagerService.h"
+#import "HookAssetCacheManagerService.h"
 #import "ACClasses.h"
 
 @implementation NSObject (hook)
