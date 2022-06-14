@@ -1,15 +1,22 @@
 #  ContentCachingInVM
 Hook `runningInVM` method in AssetCache and AssetCacheManageService make Content Caching can running in VM.
-Support macOS High Sierra 10.13.3 ~ Big Sur 11.0 Beta 3
+Support macOS High Sierra 10.13.3 ~ Monterey 12.4
 
-![](https://github.com/falafalafala1668/ContentCachingInVM/blob/master/Screenshot%202020-08-02%20at%2011.03.24%20PM.png)
+![](https://github.com/falafalafala1668/ContentCachingInVM/blob/master/Screenshot.png)
 
 ## How To Do
-1. **Please Disable SIP on your VM.**
-2. Create new ``lib`` folder in``/usr/local/`` (If not exist.)
-3. Copy ``*.dylib`` to ``/usr/local/lib`` and copy ``*.plist`` to ``/System/Library/LaunchDaemons/`` in Files folder.
-3. Restart your VM.
-4. Turn ON Contant Caching in System Preferences.
+### Install: 
+1. **Reboot VM to RecoveryOS**
+2. Open Terminal and change Dir to this repo
+3. Run `./RunMe.sh apply <System Root>` 
+4. Restart your VM.
+5. Turn ON Contant Caching in System Preferences.
+
+### Uninstall: 
+1. **Reboot VM to RecoveryOS**
+2. Open Terminal and change Dir to this repo
+3. Run `./RunMe.sh restore <System Root>`
+4. Restart your VM.
 
 ## Acknowledgement
 [class-dump](https://github.com/nygard/class-dump)
