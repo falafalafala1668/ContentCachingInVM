@@ -1,8 +1,7 @@
 #!/bin/bash 
 [ -z "${1}" ] && echo "./RunMe.sh apply|restore <System Root>" && exit
-[ -z "${2}" ] && [ "${1}" != build ] && echo "No ROOT" && exit
+[ -z "${2}" ] && ROOT="/Volumes/Macintosh HD" || ROOT="${2}"
 
-ROOT="${2}"
 [ ! -e "${ROOT}/System/Library" ] && echo "Not System Root" && exit
 export PATH="${ROOT}"/usr/bin:$PATH
 
@@ -46,8 +45,8 @@ case "${1}" in
             chmod 0644 "${ROOT}/${LDAC}" 
             chmod 0644 "${ROOT}/${LDACM}"
             newSnapShot
-            echo "Please Reboot VM"
-            
+            echo "Rebooting VM"
+            reboot
         }
     else
         echo "Not RecoveryOS"
@@ -64,7 +63,8 @@ case "${1}" in
         chmod 0644 "${ROOT}/${LDACM}"
         newSnapShot
         csrutil enable
-        echo "Please Reboot VM"
+        echo "Rebooting VM"
+        reboot
     else
         echo "Not RecoveryOS"
     fi
@@ -76,6 +76,6 @@ case "${1}" in
     }
     ;;
 *)
-    echo "./RunMe.sh apply|restore <System Root>"
+    echo "./RunMe.sh apply|restore [System Root]"
     ;;
 esac
