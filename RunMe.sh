@@ -19,7 +19,7 @@ rwroot() {
 }
 
 ssv() {
-    [ "$(uname -m)" = "arm64" ] && bputil -s || ([ "${SYSVER%.*}" = "10.15" ] || [ "${SYSVER%%.*}" -ge 11 ]) && csrutil authenticated-root ${1} || exit
+    [ "$(uname -m)" = "arm64" ] && bputil -s || ([ "${SYSVER%.*}" = "10.15" ] || [ "${SYSVER%%.*}" -ge 11 ]) && csrutil authenticated-root ${1}
 }
 
 newSnapShot() {
